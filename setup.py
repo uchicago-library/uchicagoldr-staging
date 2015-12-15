@@ -5,7 +5,7 @@ setup(
     version = '1.0.0',
     author = "Brian Balsamo",
     author_email = "balsamo@uchicago.edu",
-    packages = ['uchicagoldrstaging'],
+    packages = ['uchicagoldrstaging','uchicagoldrstaging.creation','uchicagoldrstaging.population','uchicagoldrstaging.validation'],
     description = "A set of classes for staging new files into the repository",
     keywords = ["uchicago","repository","file-level","processing"],
     classifiers = [

@@ -1,5 +1,5 @@
 def prefixToFolder(popRoot, prefix):
-    from uchicagoldrStaging.lib import getImmediateSubDirs
+    from uchicagoldrstaging.lib import getImmediateSubDirs
     from re import match
 
     existingPopSubDirs = [name for name in getImmediateSubDirs(popRoot)
